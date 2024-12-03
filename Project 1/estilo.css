@@ -1,0 +1,16 @@
+body {
+    background-image: url(img/scottish.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h2{
+    text-align: center;
+    color: aqua;
+    justify-content: end;
+}
+p{
+    text-align: justify;
+    color: blueviolet;
+    margin-top: 10%;
+}
