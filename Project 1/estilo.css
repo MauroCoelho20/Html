@@ -6,11 +6,17 @@ body {
 }
 h2{
     text-align: center;
-    color: aqua;
+    color: black;
     justify-content: end;
 }
 p{
     text-align: justify;
-    color: blueviolet;
-    margin-top: 10%;
+
+    color: black;
+    margin-top: 5%;
+}
+footer{
+    margin-bottom: auto;
+    color: aqua;
+    text-align: center;
 }
