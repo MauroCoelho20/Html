@@ -1,22 +1,47 @@
 body {
-    background-image: url(img/scottish.jpg);
+    background-color: blanchedalmond;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+header{
+    text-align: center;
+}
+.navbar-fixed{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
 }
 h2{
     text-align: center;
     color: black;
     justify-content: end;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 p{
     text-align: justify;
-
     color: black;
-    margin-top: 5%;
+    padding: 2rem;
+    font-family: 'Sarala', sans-serif;
 }
-footer{
-    margin-bottom: auto;
-    color: aqua;
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
     text-align: center;
-}
+  }
